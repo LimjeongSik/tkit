@@ -1,0 +1,118 @@
+.header__area {
+    min-height: 59px;
+}
+.header__area .btn_close {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.header__area .btn_close img {
+    width: 17px;
+    height: 17px;
+    padding: 20px;
+}
+.stanbypayment__wrap {
+    padding: 0 20px;
+}
+.stanby {
+    display: flex;
+    flex-direction: column;
+    padding: 18px 24px 24px;
+    background: #50b59e;
+    border-radius: 14px;
+    margin-bottom: 12px;
+}
+.stanby > h2 {
+    font-size: 18px;
+    letter-spacing: -0.14px;
+    color: #fff;
+    font-family: "Pretendard";
+    font-weight: var(--bold);
+}
+.stanby > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 5px 0 32px;
+}
+.stanby > div strong {
+    font-size: 16px;
+    letter-spacing: -0.12px;
+    color: #f4f4f4;
+    font-family: "Pretendard";
+    font-weight: var(--medium);
+}
+.stanby > div span {
+    font-size: 53px;
+    letter-spacing: -0.41px;
+    color: #fff;
+    font-family: "Pretendard";
+    font-weight: var(--semibold);
+}
+.stanby > span {
+    font-size: 16px;
+    letter-spacing: -0.12px;
+    color: #f4f4f4;
+    font-family: "Pretendard";
+    font-weight: var(--medium);
+    text-align: center;
+}
+
+.payment__info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    grid-gap: 10px;
+
+    padding: 6px 20px 0;
+}
+.payment__info > div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.payment__info > div h6 {
+    font-size: 14px;
+    letter-spacing: -0.11px;
+    color: #adadad;
+    font-family: "Pretendard";
+    font-weight: var(--regular);
+}
+.payment__info > div span {
+    font-size: 15px;
+    color: #fff;
+    letter-spacing: -0.12px;
+    font-family: "Pretendard";
+    font-weight: var(--regular);
+}
+.payment__info > div.payment_price span {
+    font-size: 17px;
+    color: #40dab7;
+    font-family: "Pretendard";
+    font-weight: var(--regular);
+}
+
+.check_btn {
+    position: fixed;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 500px;
+    min-height: 54px;
+    padding: 16px 0;
+    background: #50b59e;
+    cursor: pointer;
+    box-sizing: border-box;
+    z-index: 9999;
+}
+.check_btn span {
+    font-size: 18px;
+    color: #fff;
+    font-family: "Pretendard";
+    font-weight: var(--semibold);
+}

@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="css/slide.min.css" />
+        <link rel="stylesheet" href="css/reset.css" />
+        <link rel="stylesheet" href="css/common.css" />
+        <link rel="stylesheet" href="css/basket.css" />
+        <title>장바구니</title>
+    </head>
+    <body>
+        <div class="mobile__wrap">
+            <header class="header__area">
+                <div class="flex btn__prev">
+                    <img src="images/btns/btn_prev.png" alt="뒤로가기" />
+                </div>
+                <div class="header__title">장바구니</div>
+            </header>
+            <section class="basket__wrap">
+                <div class="basket goods">
+                    <div class="basket__title flex">
+                        <img src="images/icons/ic_goods.png" alt="" />
+                        <h2>굿즈</h2>
+                    </div>
+                    <div class="basket__list_view">
+                        <div class="shop__name">
+                            <div class="check-box">
+                                <input
+                                    type="checkbox"
+                                    id="goods"
+                                    class="checkallinput"
+                                />
+                                <label for="goods"></label>
+                            </div>
+                            <h2>울트라 코리아 샵</h2>
+                        </div>
+                        <ul class="basket__list-wrap">
+                            <li>
+                                <div class="check-box">
+                                    <input
+                                        type="checkbox"
+                                        id="goods_01"
+                                        class="checkinput"
+                                    />
+                                    <label for="goods_01"></label>
+                                </div>
+                                <div class="basket-item__info">
+                                    <div class="item-view">
+                                        <div
+                                            class="basket-item__thumbnail-wrap"
+                                        >
+                                            <div
+                                                class="item__thumbnail"
+                                                style="
+                                                    background-image: url(images/sample/product.png);
+                                                "
+                                            ></div>
+                                        </div>
+                                        <div class="item-view__info">
+                                            <h6>
+                                                베네피트 어드벤트 캘린더 캘 린더
+                                                단델리온 포어 프라이 프라이
+                                            </h6>
+                                            <div>
+                                                <span class="price"
+                                                    >79,900원</span
+                                                >
+                                                <span class="dis"
+                                                    >79,900원</span
+                                                >
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="product__count">
+                                        <span
+                                            >상품 주문 수량 :
+                                            <span>1</span>개</span
+                                        >
+                                    </div>
+                                    <div class="product__price">
+                                        <h6>상품금액</h6>
+                                        <span>79,900원</span>
+                                    </div>
+                                    <div class="basket__btns">
+                                        <div class="btn btn_delete">
+                                            <span>삭제</span>
+                                        </div>
+                                        <div class="btn btn_retouch">
+                                            <span>주문수정</span>
+                                        </div>
+                                        <div class="btn btn_older">
+                                            <span>주문하기</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="check-box">
+                                    <input
+                                        type="checkbox"
+                                        id="goods_02"
+                                        class="checkinput"
+                                    />
+                                    <label for="goods_02"></label>
+                                </div>
+                                <div class="basket-item__info">
+                                    <div class="item-view">
+                                        <div
+                                            class="basket-item__thumbnail-wrap"
+                                        >
+                                            <div
+                                                class="item__thumbnail"
+                                                style="
+                                                    background-image: url(images/sample/product.png);
+                                                "
+                                            ></div>
+                                        </div>
+                                        <div class="item-view__info">
+                                            <h6>
+                                                베네피트 어드벤트 캘린더 캘 린더
+                                                단델리온 포어 프라이 프라이
+                                            </h6>
+                                            <div>
+                                                <span class="price"
+                                                    >79,900원</span
+                                                >
+                                                <span class="dis"
+                                                    >79,900원</span
+                                                >
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="product__count">
+                                        <span
+                                            >상품 주문 수량 :
+                                            <span>1</span>개</span
+                                        >
+                                    </div>
+                                    <div class="product__price">
+                                        <h6>상품금액</h6>
+                                        <span>79,900원</span>
+                                    </div>
+                                    <div class="basket__btns">
+                                        <div class="btn btn_delete">
+                                            <span>삭제</span>
+                                        </div>
+                                        <div class="btn btn_retouch">
+                                            <span>주문수정</span>
+                                        </div>
+                                        <div class="btn btn_older">
+                                            <span>주문하기</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="basket__all-price">
+                            <div class="choice_price">
+                                <h6>선택상품금액</h6>
+                                <span>200,900원</span>
+                            </div>
+                            <div class="discount_price">
+                                <h6>할인예상금액</h6>
+                                <span>-12,900원</span>
+                            </div>
+                            <div class="older_price">
+                                <h6>주문금액</h6>
+                                <span>188,900원</span>
+                            </div>
+                        </div>
+                        <div class="btn_on-older">
+                            <span>울트라 코리아 샵 1건 주문하기</span>
+                        </div>
+                    </div>
+                    <!-- <div class="basket__list-no">
+                        <span>담긴 굿즈가 없습니다.</span>
+                        <div class="basket__view">
+                            <span>굿즈 보기</span>
+                            <svg
+                                viewBox="0 0 44 41"
+                                xmlns="http://www.w3.org/2000/svg"
+                            >
+                                <path
+                                    d="m23.05 40.523 20.04-20.097L23.05.386l-4.276 4.22 12.832 12.773H.492v6.152h31.114L18.774 36.305z"
+                                    fill-rule="nonzero"
+                                />
+                            </svg>
+                        </div>
+                    </div> -->
+                </div>
+                <div class="basket fnb">
+                    <div class="basket__title flex">
+                        <img src="images/icons/ic_fb.png" alt="" />
+                        <h2>F&B</h2>
+                    </div>
+                    <div class="basket__list_view">
+                        <div class="shop__name">
+                            <div class="check-box">
+                                <input
+                                    type="checkbox"
+                                    id="fb"
+                                    class="checkallinput"
+                                />
+                                <label for="fb"></label>
+                            </div>
+                            <h2>울트라 코리아 샵</h2>
+                        </div>
+                        <ul class="basket__list-wrap">
+                            <li>
+                                <div class="check-box">
+                                    <input
+                                        type="checkbox"
+                                        id="fb_01"
+                                        class="checkinput"
+                                    />
+                                    <label for="fb_01"></label>
+                                </div>
+                                <div class="basket-item__info">
+                                    <div class="item-view">
+                                        <div
+                                            class="basket-item__thumbnail-wrap"
+                                        >
+                                            <div
+                                                class="item__thumbnail"
+                                                style="
+                                                    background-image: url(images/sample/product.png);
+                                                "
+                                            ></div>
+                                        </div>
+                                        <div class="item-view__info">
+                                            <h6>
+                                                베네피트 어드벤트 캘린더 캘 린더
+                                                단델리온 포어 프라이 프라이
+                                            </h6>
+                                            <div>
+                                                <span class="price"
+                                                    >79,900원</span
+                                                >
+                                                <span class="dis"
+                                                    >79,900원</span
+                                                >
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="product__count">
+                                        <span
+                                            >상품 주문 수량 :
+                                            <span>1</span>개</span
+                                        >
+                                    </div>
+                                    <div class="product__price">
+                                        <h6>상품금액</h6>
+                                        <span>79,900원</span>
+                                    </div>
+                                    <div class="basket__btns">
+                                        <div class="btn btn_delete">
+                                            <span>삭제</span>
+                                        </div>
+                                        <div class="btn btn_retouch">
+                                            <span>주문수정</span>
+                                        </div>
+                                        <div class="btn btn_older">
+                                            <span>주문하기</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="check-box">
+                                    <input
+                                        type="checkbox"
+                                        id="fb_02"
+                                        class="checkinput"
+                                    />
+                                    <label for="fb_02"></label>
+                                </div>
+                                <div class="basket-item__info">
+                                    <div class="item-view">
+                                        <div
+                                            class="basket-item__thumbnail-wrap"
+                                        >
+                                            <div
+                                                class="item__thumbnail"
+                                                style="
+                                                    background-image: url(images/sample/product.png);
+                                                "
+                                            ></div>
+                                        </div>
+                                        <div class="item-view__info">
+                                            <h6>
+                                                베네피트 어드벤트 캘린더 캘 린더
+                                                단델리온 포어 프라이 프라이
+                                            </h6>
+                                            <div>
+                                                <span class="price"
+                                                    >79,900원</span
+                                                >
+                                                <span class="dis"
+                                                    >79,900원</span
+                                                >
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="product__count">
+                                        <span
+                                            >상품 주문 수량 :
+                                            <span>1</span>개</span
+                                        >
+                                    </div>
+                                    <div class="product__price">
+                                        <h6>상품금액</h6>
+                                        <span>79,900원</span>
+                                    </div>
+                                    <div class="basket__btns">
+                                        <div class="btn btn_delete">
+                                            <span>삭제</span>
+                                        </div>
+                                        <div class="btn btn_retouch">
+                                            <span>주문수정</span>
+                                        </div>
+                                        <div class="btn btn_older">
+                                            <span>주문하기</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="basket__all-price">
+                            <div class="choice_price">
+                                <h6>선택상품금액</h6>
+                                <span>200,900원</span>
+                            </div>
+                            <div class="discount_price">
+                                <h6>할인예상금액</h6>
+                                <span>-12,900원</span>
+                            </div>
+                            <div class="older_price">
+                                <h6>주문금액</h6>
+                                <span>188,900원</span>
+                            </div>
+                        </div>
+                        <div class="btn_on-older">
+                            <span>울트라 코리아 샵 1건 주문하기</span>
+                        </div>
+                    </div>
+                    <!-- <div class="basket__list-no">
+                        <span>담긴 F&B가 없습니다.</span>
+                        <div class="basket__view">
+                            <span>F&B 보기</span>
+                            <svg
+                                viewBox="0 0 44 41"
+                                xmlns="http://www.w3.org/2000/svg"
+                            >
+                                <path
+                                    d="m23.05 40.523 20.04-20.097L23.05.386l-4.276 4.22 12.832 12.773H.492v6.152h31.114L18.774 36.305z"
+                                    fill-rule="nonzero"
+                                />
+                            </svg>
+                        </div>
+                    </div> -->
+                </div>
+                <div class="basket etc">
+                    <div class="basket__title flex">
+                        <img src="images/icons/ic_etc.png" alt="" />
+                        <h2>Etc.</h2>
+                    </div>
+                    <div class="basket__list-no">
+                        <span>담긴 Etc가 없습니다.</span>
+                        <div class="basket__view">
+                            <span>Etc 보기</span>
+                            <svg
+                                viewBox="0 0 44 41"
+                                xmlns="http://www.w3.org/2000/svg"
+                            >
+                                <path
+                                    d="m23.05 40.523 20.04-20.097L23.05.386l-4.276 4.22 12.832 12.773H.492v6.152h31.114L18.774 36.305z"
+                                    fill-rule="nonzero"
+                                />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="best__goods swiper__items">
+                <h2 class="title">Umf, 지금 인기있는 굿즈</h2>
+                <div class="swiper goodsSwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="item">
+                                <div class="item__thumbnail-wrap">
+                                    <div
+                                        class="itme__thumbnail"
+                                        style="
+                                            background-image: url(images/sample/product.png);
+                                        "
+                                    ></div>
+                                </div>
+                                <div class="item__info">
+                                    <h6>ULTRA PAISLEY BANDANA</h6>
+                                    <span class="dis">39,000원</span>
+                                    <span class="price">39,000원</span>
+                                </div>
+                                <div class="btn__basket">
+                                    <span>장바구니 담기</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="item">
+                                <div class="item__thumbnail-wrap">
+                                    <div
+                                        class="itme__thumbnail"
+                                        style="
+                                            background-image: url(images/sample/product.png);
+                                        "
+                                    ></div>
+                                </div>
+                                <div class="item__info">
+                                    <h6>ULTRA PAISLEY BANDANA</h6>
+                                    <span class="dis">39,000원</span>
+                                    <span class="price">39,000원</span>
+                                </div>
+                                <div class="btn__basket">
+                                    <span>장바구니 담기</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="item">
+                                <div class="item__thumbnail-wrap">
+                                    <div
+                                        class="itme__thumbnail"
+                                        style="
+                                            background-image: url(images/sample/product.png);
+                                        "
+                                    ></div>
+                                </div>
+                                <div class="item__info">
+                                    <h6>ULTRA PAISLEY BANDANA</h6>
+                                    <span class="dis">39,000원</span>
+                                    <span class="price">39,000원</span>
+                                </div>
+                                <div class="btn__basket">
+                                    <span>장바구니 담기</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="best__food swiper__items">
+                <h2 class="title">Umf, 지금 인기있는 굿즈</h2>
+                <div class="swiper foodSwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="item">
+                                <div class="item__thumbnail-wrap">
+                                    <div
+                                        class="itme__thumbnail"
+                                        style="
+                                            background-image: url(images/sample/food.png);
+                                        "
+                                    ></div>
+                                </div>
+                                <div class="item__info">
+                                    <small>열알 타코야끼</small>
+                                    <h6>순한맛 타코야끼 10알</h6>
+                                    <span class="dis">5,000원</span>
+                                    <span class="price">4,000원</span>
+                                </div>
+                                <div class="btn__basket">
+                                    <span>장바구니 담기</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="best__fastival_item swiper__items">
+                <h2 class="title">페스티벌에서 삶의질 상승템</h2>
+                <div class="swiper fastivalItemSwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="item">
+                                <div class="item__thumbnail-wrap">
+                                    <div
+                                        class="itme__thumbnail"
+                                        style="
+                                            background-image: url(images/sample/item.png);
+                                        "
+                                    ></div>
+                                </div>
+                                <div class="item__info">
+                                    <h6>레터링 타투스티커 30종세트 JT001</h6>
+                                    <span class="dis">39,000원</span>
+                                    <span class="price">11,910원</span>
+                                </div>
+                                <div class="btn__basket">
+                                    <span>장바구니 담기</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="best__fastival_item swiper__items">
+                <h2 class="title">특가 할인중⚡️상품을 놓치지 마세요</h2>
+                <div class="swiper fastivalItemSwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="item">
+                                <div class="item__thumbnail-wrap">
+                                    <div
+                                        class="itme__thumbnail"
+                                        style="
+                                            background-image: url(images/sample/item2.png);
+                                        "
+                                    ></div>
+                                </div>
+                                <div class="item__info">
+                                    <h6>레터링 타투스티커 30종세트 JT001</h6>
+                                    <span class="dis">39,000원</span>
+                                    <span class="price">11,910원</span>
+                                </div>
+                                <div class="btn__basket">
+                                    <span>장바구니 담기</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div class="fot__bar">
+                <div class="l__bar">
+                    <span>총 주문금액</span>
+                    <strong>98,900원</strong>
+                </div>
+                <div class="r__bar">
+                    <span>총 주문하기</span>
+                    <span class="count__entrance">0</span>
+                </div>
+            </div>
+        </div>
+
+        <script src="js/jquery.js"></script>
+        <script src="js/swiper-bundle.min.js"></script>
+        <script>
+            var swiper = new Swiper(".goodsSwiper", {
+                slidesPerView: 2.5,
+                spaceBetween: 16,
+            });
+            var swiper = new Swiper(".foodSwiper", {
+                slidesPerView: 2.5,
+                spaceBetween: 16,
+            });
+            var swiper = new Swiper(".fastivalItemSwiper", {
+                slidesPerView: 2.5,
+                spaceBetween: 16,
+            });
+        </script>
+        <script>
+            // 체크박스 전체선택 분할선택
+            const basketListView =
+                document.querySelectorAll(".basket__list_view");
+            const checkAll = document.querySelector("#list__all");
+            const checkbox = document.querySelectorAll(".checkinput");
+
+            basketListView.forEach((list) => {
+                let length = 0;
+                const checkAllInput = list.querySelector(".checkallinput");
+                const checkInputBox = list.querySelectorAll(".checkinput");
+
+                checkInputBox.forEach((item) => {
+                    item.addEventListener("click", () => {
+                        if (item.checked === true) {
+                            length++;
+
+                            if (checkInputBox.length === length) {
+                                return (checkAllInput.checked = true);
+                            }
+                        } else {
+                            length--;
+                            if (checkInputBox.length !== length) {
+                                return (checkAllInput.checked = false);
+                            }
+                        }
+                    });
+                });
+
+                checkAllInput.addEventListener("click", () => {
+                    checkInputBox.forEach((item) => {
+                        if (!item.checked) {
+                            item.checked = true;
+                            length = checkInputBox.length;
+                        }
+
+                        if (!checkAllInput.checked) {
+                            item.checked = false;
+                            length = 0;
+                        }
+                    });
+                });
+            });
+        </script>
+    </body>
+</html>

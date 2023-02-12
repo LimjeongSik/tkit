@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="css/slide.min.css" />
+        <link rel="stylesheet" href="css/reset.css" />
+        <link rel="stylesheet" href="css/common.css" />
+        <link rel="stylesheet" href="css/payment.css" />
+        <title>결제완료</title>
+    </head>
+    <body>
+        <div class="mobile__wrap">
+            <header class="header__area">
+                <div></div>
+                <div class="header__title">결제완료</div>
+                <div class="btn_close">
+                    <img src="images/btns/btn_close.png" alt="" />
+                </div>
+            </header>
+            <section class="payment__wrap">
+                <div class="payment">
+                    <div class="payment__title">
+                        <span>움프 티셔츠 외 3건</span>
+                        <h2>결제 완료</h2>
+                    </div>
+                    <div class="payment__info">
+                        <div class="payment_date">
+                            <h6>결제일자</h6>
+                            <span>2022.10.30 11:05</span>
+                        </div>
+                        <div class="payment_price">
+                            <h6>결제금액</h6>
+                            <span>67,000원</span>
+                        </div>
+                        <div class="payment_method">
+                            <h6>결제수단</h6>
+                            <span>신한은행 (110****0551)</span>
+                        </div>
+                    </div>
+                    <div class="older_list_view-btn">
+                        <span>주문내역 보기</span>
+                    </div>
+                </div>
+            </section>
+            <section class="swiper__items">
+                <h2 class="title">지금 구매해보세요.</h2>
+                <div class="swiper itemSwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="item">
+                                <div class="item__thumbnail-wrap">
+                                    <div
+                                        class="itme__thumbnail"
+                                        style="
+                                            background-image: url(images/sample/product.png);
+                                        "
+                                    ></div>
+                                </div>
+                                <div class="item__info">
+                                    <h6>ULTRA PAISLEY BANDANA</h6>
+                                    <span class="dis">39,000원</span>
+                                    <span class="price">39,000원</span>
+                                </div>
+                                <div class="btn__basket">
+                                    <span>장바구니 담기</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="item">
+                                <div class="item__thumbnail-wrap">
+                                    <div
+                                        class="itme__thumbnail"
+                                        style="
+                                            background-image: url(images/sample/product.png);
+                                        "
+                                    ></div>
+                                </div>
+                                <div class="item__info">
+                                    <h6>ULTRA PAISLEY BANDANA</h6>
+                                    <span class="dis">39,000원</span>
+                                    <span class="price">39,000원</span>
+                                </div>
+                                <div class="btn__basket">
+                                    <span>장바구니 담기</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="item">
+                                <div class="item__thumbnail-wrap">
+                                    <div
+                                        class="itme__thumbnail"
+                                        style="
+                                            background-image: url(images/sample/product.png);
+                                        "
+                                    ></div>
+                                </div>
+                                <div class="item__info">
+                                    <h6>ULTRA PAISLEY BANDANA</h6>
+                                    <span class="dis">39,000원</span>
+                                    <span class="price">39,000원</span>
+                                </div>
+                                <div class="btn__basket">
+                                    <span>장바구니 담기</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div class="check_btn">
+                <span>확인</span>
+            </div>
+        </div>
+
+        <script src="js/jquery.js"></script>
+        <script src="js/swiper-bundle.min.js"></script>
+        <script>
+            var swiper = new Swiper(".itemSwiper", {
+                slidesPerView: 2.5,
+                spaceBetween: 16,
+            });
+        </script>
+    </body>
+</html>
